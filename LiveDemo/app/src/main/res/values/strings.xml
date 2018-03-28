@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">FragmentsDemo</string>
+    <string name="stories">Timeline</string>
+    <string name="scanner">Frag 2</string>
+    <string name="gifts">Frag 3</string>
+    <string name="profile">Frag 4</string>
+    <string name="campaigns">Promotions</string>
+</resources>
