@@ -1,10 +1,12 @@
-package com.mentormate.fragmentsdemo;
+package com.mentormate.fragmentsdemo.advanced_ui;
 
 
 import android.content.Context;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentPagerAdapter;
+
+import com.mentormate.fragmentsdemo.R;
 
 public class TimelinePagerAdapter extends FragmentPagerAdapter {
 

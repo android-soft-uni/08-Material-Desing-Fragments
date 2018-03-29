@@ -1,4 +1,4 @@
-package com.mentormate.fragmentsdemo;
+package com.mentormate.fragmentsdemo.advanced_ui;
 
 
 import android.databinding.DataBindingUtil;
@@ -9,6 +9,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
+import com.mentormate.fragmentsdemo.R;
 import com.mentormate.fragmentsdemo.databinding.FragmentTimelineBinding;
 
 public class TimelineFragment extends Fragment {

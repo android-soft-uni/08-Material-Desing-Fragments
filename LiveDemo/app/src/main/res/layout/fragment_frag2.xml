@@ -4,4 +4,10 @@
     android:layout_height="match_parent"
     android:background="@color/colorAccent">
 
+    <Button
+        android:id="@+id/btn_small"
+        style="@style/BlueButton"
+        android:layout_height="wrap_content"
+        android:text="Small button"
+        android:textColor="@drawable/selector_btn_small" />
 </android.support.constraint.ConstraintLayout>

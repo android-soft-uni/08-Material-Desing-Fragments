@@ -6,6 +6,12 @@
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:textColor">#0f0</item>
     </style>
 
+    <style name="BlueButton">
+        <item name="android:layout_width">128dp</item>
+        <item name="android:layout_margin">16dp</item>
+        <item name="android:background">@drawable/selector_btn_small</item>
+    </style>
 </resources>

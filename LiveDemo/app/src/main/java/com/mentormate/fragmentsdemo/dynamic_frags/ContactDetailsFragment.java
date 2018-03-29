@@ -1,5 +1,4 @@
-package com.mentormate.fragmentsdemo;
-
+package com.mentormate.fragmentsdemo.dynamic_frags;
 
 import android.os.Bundle;
 import android.support.annotation.Nullable;
@@ -8,11 +7,14 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-public class Frag4 extends Fragment {
+import com.mentormate.fragmentsdemo.R;
+
+
+public class ContactDetailsFragment extends Fragment {
+
     @Nullable
     @Override
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
-        View view = inflater.inflate(R.layout.fragment_frag4, container, false);
-        return view;
+        return inflater.inflate(R.layout.fragment_contact_details, container, false);
     }
 }

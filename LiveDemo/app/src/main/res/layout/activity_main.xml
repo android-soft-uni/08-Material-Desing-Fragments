@@ -11,11 +11,13 @@
         android:layout_width="match_parent"
         android:layout_height="?attr/actionBarSize"
         android:background="@color/colorPrimary"
+        app:title="Let's test this"
+        app:titleTextColor="#fff"
         android:elevation="4dp"
         app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
 
         <FrameLayout
-            android:layout_width="match_parent"
+            android:layout_width="wrap_content"
             android:layout_height="match_parent">
 
             <ImageView

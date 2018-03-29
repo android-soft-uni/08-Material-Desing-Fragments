@@ -5,4 +5,7 @@
     <string name="gifts">Frag 3</string>
     <string name="profile">Frag 4</string>
     <string name="campaigns">Promotions</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>
